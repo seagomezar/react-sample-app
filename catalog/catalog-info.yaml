@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-app-sample
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=react-app-sample"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
