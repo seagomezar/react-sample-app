@@ -1,0 +1,3 @@
+[build]
+  [[build.buildpacks]]
+  uri = "tanzu-buildpacks/web-servers"
